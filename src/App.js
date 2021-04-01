@@ -3,6 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
+import AboutMe from "./components/AboutMe";
+import Services from "./components/services";
+
 
 function App() {
   return (
@@ -30,6 +33,8 @@ function App() {
     />
     <Navbar />
     <Header />
+    <AboutMe />
+    <Services />
     </>
   );
 }
